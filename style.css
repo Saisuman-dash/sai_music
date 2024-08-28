@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(135deg,black,green);
+    overflow: hidden;
+}
+.nav{
+    color: aliceblue;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+    text-align: center;
+    font-size: 2vw;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background: rgb(90, 136, 151);
+    position: fixed;
+    bottom: 0px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.list{
+    height: 30vw;
+    width: 20vw;
+    background:linear-gradient(90deg,rgb(25, 101, 142),rgb(20, 162, 96));
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+}
+.img{
+    width: 100%;
+    height: 80%;
+    background: #000;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1530419248307-be80b9468e77?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.ctrl{
+width: 100%;
+height: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1vw;
+}
+button{
+    padding: .5vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
